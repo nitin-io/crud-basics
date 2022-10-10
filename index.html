@@ -11,32 +11,21 @@
     <div class="container">
         <div class="left">
             <form id="form">
-                <label id="form">Add your post from here:</label>
+                <label for="form">Add your post from here:</label>
                 <br><br>
-                <textarea name="" id="" cols="30" rows="10"></textarea>
+                <textarea name="post" id="input" cols="30" rows="10"></textarea>
                 <br><br>
-                <button>Submit</button>
+                <div id="msg"></div>
+                <button type="submit">Submit</button>
             </form>
         </div>
         <div class="right">
             <h1>Your post here:</h1>
             <div id="posts">
-                <div>
-                    <p>Post 1</p>
-                    <span class="options">
-                        <i>Edit</i>
-                        <i>Delete</i>
-                    </span>
-                </div>
-                <div>
-                    <p>Post 1</p>
-                    <span class="options">
-                        <i>Edit</i>
-                        <i>Delete</i>
-                    </span>
-                </div>
+                
             </div>
         </div>
     </div>
+    <script src="main.js"></script>
 </body>
 </html>
